@@ -1,0 +1,30 @@
+body{
+background: linear-gradient(170deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%);
+text-align: center;
+}
+table {
+    width: 100%;
+    height: 885px;
+
+}
+td,tr{
+    border: 1px solid grey;
+    font-size: larger;
+}
+td:hover {
+    -webkit-transition: all 0.4s ease;;
+    -moz-transition: all 0.4s ease;;
+    -o-transition: all 0.4s ease;;
+    transition: all 0.4s ease;
+    box-shadow: inset 0 0 0 15px #007070;
+    background: linear-gradient(0deg, rgba(0,200,200,1) 0%, rgba(0,160,160,1) 100%);;
+    ;
+}
+h1{
+    color: blue;
+}
+
+.zagolovok {
+    width: 212px;
+    height: 120px;
+}
